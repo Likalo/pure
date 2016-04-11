@@ -1,3 +1,9 @@
+Preface
+=======
+
+This is a fork of an excellent Pure.css framework created for the purpose of tinkering and historical reasons. It was neither created, nor co-created by Likalo.com. You may find the original description of the Pure, along with copiright notices and desclaimenrs below this *preface*.
+If you are looking for the original Pure.css, please use the information and links below to navigate to their original git page.
+
 Pure
 ====
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/yahoo/pure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
