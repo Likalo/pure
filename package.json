@@ -1,9 +1,9 @@
 {
-  "name": "purecss",
-  "version": "0.6.1-pre",
+  "name": "purecss.likalo.com",
+  "version": "0.1.3",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yahoo/pure.git"
+    "url": "git://github.com/likalo/pure.git"
   },
   "scripts": {
     "test": "grunt test",
@@ -26,17 +26,15 @@
     "grunt-stripmq": "0.0.6",
     "grunt-text-replace": "^0.4.0"
   },
-  "description": "Pure is a ridiculously tiny CSS library you can use to start any web project.",
+  "description": "This is a fork of Pure - a ridiculously tiny CSS library you can use to start any web project.",
   "bugs": {
-    "url": "https://github.com/yahoo/pure/issues"
+    "url": "https://github.com/likalo/pure/issues"
   },
-  "homepage": "http://purecss.io",
   "main": "build/pure-min.css",
   "keywords": [
     "pure",
     "css",
-    "purecss",
-    "yahoo"
+    "purecss"
   ],
   "authors": [
     "ericf <edf@ericf.me>",
