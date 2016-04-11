@@ -2,7 +2,7 @@ Preface
 =======
 
 This is a fork of an excellent Pure.css framework created for the purpose of tinkering and historical reasons. It was neither created, nor co-created by Likalo.com. You may find the original description of the Pure, along with copiright notices and desclaimenrs below this *preface*.
-If you are looking for the original Pure.css, please use the information and links below to navigate to their original git page.
+If you are looking for the original Pure.css, please use the information and links at hte bottom of this page to navigate to their original git page.
 
 Pure
 ====
