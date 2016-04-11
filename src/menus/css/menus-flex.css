@@ -1,0 +1,19 @@
+/* flexed menus */
+
+.pure-menu-justified .pure-menu-list,
+.pure-menu-centered .pure-menu-list {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.pure-menu-centered .pure-menu-list {
+    justify-content: center
+}
+
+.pure-menu-justified .pure-menu-item {
+    flex: 1
+}
+
+.pure-menu-justified .pure-menu-link {
+    text-align: center
+}
