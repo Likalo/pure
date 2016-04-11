@@ -1,0 +1,42 @@
+.app,
+.app-view,
+.app-sidebar {
+  background-color: #BackgroundColor;
+}
+.app-sidebar {
+  border-color: #BorderColor;
+}
+
+.app-toolbar > .pure-menu {
+  background-color: #AccentColor;
+  border-color: #AccentColor;
+}
+.app-toolbar,
+.app-toolbar .pure-menu-link,
+.app-toolbar .pure-menu-control,
+.app-toolbar .pure-menu-heading {
+  color: #AccentText;
+  fill: #AccentText;
+}
+.app-toolbar .pure-menu-active > .pure-menu-link,
+.app-toolbar .pure-menu-link:hover,
+.app-toolbar .pure-menu-link:focus {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.layout--menu-header {
+  border-color: #BorderColor;
+}
+.layout--menu-list .pure-menu-heading {
+    background-color: #BackgroundShade;
+}
+.layout--menu-list .pure-menu-link,
+.layout--menu-list .pure-menu-control {
+    border-bottom: 1px solid #BorderColor;
+}
+.layout--menu-list .pure-menu-description {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    background-color: #BackgroundShade;
+    border-bottom: 1px solid #BorderColor;
+}

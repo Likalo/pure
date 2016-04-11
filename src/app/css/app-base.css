@@ -1,0 +1,139 @@
+.app {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.app-sidebar {
+  position: fixed;
+  width: 12em;
+  margin-left: -12em;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 4;
+  box-sizing: border-box;
+  border-right: 1px solid;
+  transition: left 500ms;
+}
+.expanded .app-sidebar,
+.app-sidebar.expanded {
+  left: 12em;
+}
+.app-sidebar--menu-button {
+ display: block;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 1em;
+ height: 1em;
+ padding: 1em;
+ z-index: 999;
+ opacity: 0;
+}
+.app-sidebar.expanded .app-sidebar--menu-button{
+position: static;
+ display: inline-block;
+ float: left;
+ opacity: 1;
+}
+.app-sidebar>.layout--menu-list {
+   min-height: 100%;
+   z-index: 2;
+   position: relative;
+   background-color: #fff;
+}
+.app-sidebar--overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.app-sidebar.expanded>.app-sidebar--overlay{
+ display: block;
+}
+
+.app-toolbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3em;
+    z-index: 999;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+}
+.app-toolbar .pure-menu-link,
+.app-toolbar .pure-menu-control,
+.app-toolbar .pure-menu-heading,
+.app-toolbar .pure-menu-description {
+    line-height: 2em;
+}
+.app-toolbar img {
+  max-height: 2em;
+}
+.app-toolbar > .pure-menu {
+  top: -100%;
+  transition: 500ms;
+  transition-delay: 100ms;
+}
+.app-toolbar--affixed > .pure-menu {
+  top: 0;
+  position: fixed;
+  z-index: 3;
+}
+
+.app-title {
+  max-width: 50%;
+  max-height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.pure-menu-heading.app-title {
+ padding-left: 0;
+}
+.app-title--label,
+.app-title--description {
+ overflow: hidden;
+ line-height: 1em;
+ text-overflow: ellipsis;
+ width: 100%;
+ display: block;
+}
+.app-title--description {
+    font-size: 60%;
+    margin-top: 0.5em;
+    line-height: 1em;
+    text-transform: initial;
+}
+
+.app-view {
+  position: relative;
+}
+
+@media (min-width: 58em) {
+  .app {
+      box-sizing: border-box;
+      padding-left: 12em;
+      left: 0;
+  }
+  .app-sidebar {
+    left: 12em;
+  }
+  .app-sidebar.expanded>.app-sidebar--overlay,
+  .app-toolbar .app-toolbar--menu-button,
+  .app-sidebar--menu-button {
+   display: none;
+  }
+  .pure-menu-heading.app-title {
+    padding-left: 1em;
+  }
+}

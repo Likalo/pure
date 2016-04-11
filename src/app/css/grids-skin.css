@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300|Open+Sans+Condensed:300&subset=latin,cyrillic);
+body {
+    color: #TextColor;
+    fill: #TextColor;
+    line-height: 1.6;
+}
+
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: #AccentColor;
+    fill: #AccentColor;
+    text-decoration: none;
+}
+
+/* --------------------------
+ * Header Module Styles
+ * --------------------------
+*/
+
+.header {
+    padding: 1em;
+    margin: 0 auto;
+    text-align: left;
+    border-bottom: 1px solid #BorderColor;
+    letter-spacing: 0.05em;
+}
+.header h1 {
+    font-size: 300%;
+    font-weight: 100;
+    margin: 0;
+}
+.header h2 {
+    font-size: 125%;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+.pure-tag {
+  border-color: #TextShade;
+  background-color: #BackgroundShade;
+}
+
+@media screen and (min-width: 48em) {
+    body {
+        font-size: 1.125em;
+    }
+    .header {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .header h1 {
+        font-size: 320%;
+    }
+    .header h2 {
+        font-size: 128%;
+    }
+}

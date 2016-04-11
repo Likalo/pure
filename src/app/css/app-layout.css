@@ -1,0 +1,132 @@
+.layout--scroll-horizontaly {
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.layout--scroll-vertically {
+  top: 0;
+  bottom: 0;
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.layout--hidden,
+.layout--hidde-inactive:not(.active) {
+    display: none;
+}
+.layout--concealed,
+.layout--conceal-inactive:not(.active) {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.layout--position-at { position: fixed; z-index: 3;}
+.layout--position-at.top { top: 1em; }
+.layout--position-at.right { right: 1em; }
+.layout--position-at.bottom { bottom: 1em; }
+.layout--position-at.left { left: 1em; }
+
+.layout--icon {
+    margin: 0 0.5em;
+}
+.layout--box {
+    padding: 1em;
+}
+.layout--box.x2 {
+    padding: 2em;
+}
+.layout--center-in {
+    margin-left: auto;
+    margin-right: auto;
+}
+.layout--nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.layout--section-header {
+  margin-bottom: 1em;
+}
+
+.layout--menu-header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  height: 3em;
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+}
+.layout--menu-list .pure-menu-item {
+    /*min-height: 3.6em;*/
+    vertical-align: middle;
+}
+.layout--menu-list .pure-menu-link,
+.layout--menu-list .pure-menu-control,
+.layout--menu-list .pure-menu-heading {
+    /*padding-top: 1em;
+    padding-bottom: 1em;*/
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+.layout--menu-list .pure-menu-heading {
+    padding-top: 1.5em;
+}
+.layout--menu-list .pure-menu-description {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+.layout--menu-list .layout--menu-icon {
+    padding: 1em;
+    margin: -1em 0 -1em -1em;
+}
+.layout--menu-list .layout--menu-icon.UI-monogram {
+    margin: -1em 0 -1em -1em;
+    padding: 0.6em;
+}
+.layout--menu-img {
+  width: 2em;
+  display: inline;
+  vertical-align: middle;
+}
+.layout--menu-list .layout--menu-img {
+    margin-right: 0.7em;
+    margin-left: -0.5em;
+}
+.layout--menu-list .layout--menu-label {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.layout--flex-row,
+.layout--flex-column {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+.layout--flex-column {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.layout--flex-row .layout--flex-cell {
+    min-width: 2em;
+}
+.layout--flex-column .layout--flex-cell {
+    width: 100%;
+    line-height: 2.1em;
+}
+.layout--flex-cell.fill {
+    flex: 1 1 auto;
+}
+
+@media (min-width: 58em) {
+.layout--position-at.top { top: 2em; }
+.layout--position-at.right { right: 2em; }
+.layout--position-at.bottom { bottom: 2em; }
+.layout--position-at.left { left: 2em; }
+}
