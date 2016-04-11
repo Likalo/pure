@@ -19,7 +19,7 @@
     -ms-overflow-style: none;
     -webkit-overflow-scrolling: touch;
     /* a little extra padding for this style to allow for scrollbars */
-    padding: .5em 0;
+    /* padding: .5em 0; */
 }
 
 .pure-menu-horizontal.pure-menu-scrollable::-webkit-scrollbar {

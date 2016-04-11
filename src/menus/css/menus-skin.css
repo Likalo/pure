@@ -1,51 +1,77 @@
 /* misc default styling */
 
 .pure-menu-separator {
-    background-color: #ccc;
+    background-color: #BorderColor;
     height: 1px;
     margin: .3em 0;
 }
 
 .pure-menu-horizontal .pure-menu-separator {
     width: 1px;
-    height: 1.3em;
-    margin: 0 .3em ;
+    min-height: 2em;
+    margin: auto .3em ;
 }
 
 .pure-menu-heading {
     text-transform: uppercase;
-    color: #565d64;
-}
-
-.pure-menu-link {
-    color: #777;
-}
-
-.pure-menu-children {
-    background-color: #fff;
+    color: #TextColor;
+    fill: #TextColor;
 }
 
 .pure-menu-link,
-.pure-menu-disabled,
-.pure-menu-heading {
+.pure-menu-control {
+    cursor: pointer!important;
+}
+
+.pure-menu-children {
+    background-color: #BackgroundColor;
+}
+
+.pure-menu-link,
+.pure-menu-control,
+.pure-menu-heading,
+.pure-menu-description {
     padding: .5em 1em;
 }
 
+.pure-menu-link[disabled],
+.pure-menu-control[disabled],
+.pure-menu-link.disabled,
+.pure-menu-control.disabled,
+.pure-menu-item[disabled],
 .pure-menu-disabled {
-    opacity: .5;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    filter: alpha(opacity=40);
+    -khtml-opacity: 0.40;
+    -moz-opacity: 0.40;
+    opacity: 0.40;
+    cursor: not-allowed!important;
+    pointer-events: none;
 }
 
 .pure-menu-disabled .pure-menu-link:hover {
     background-color: transparent;
 }
 
+
 .pure-menu-active > .pure-menu-link,
 .pure-menu-link:hover,
 .pure-menu-link:focus {
-    background-color: #eee;
+    background-color: #BackgroundHover;
 }
 
 .pure-menu-selected .pure-menu-link,
+.pure-menu-item.active > .pure-menu-link,
+.pure-menu-link.active,
 .pure-menu-selected .pure-menu-link:visited {
-    color: #000;
+    background-color: #AccentColor;
+    color: #AccentText;
+    fill: #AccentText;
+}
+
+.pure-menu-tabs .pure-menu-link {
+    border-color: #AccentColor;
+}
+.pure-menu-tabs .pure-menu-item:first-child>.pure-menu-link {
+    border-left-color: #AccentColor;
 }

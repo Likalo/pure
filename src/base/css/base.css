@@ -26,3 +26,19 @@
     height: auto;
     display: block;
 }
+.pure-img-rounded {
+    border-radius: 50%;
+}
+.pure-img-bordered {
+    border: 0.15em solid;
+    box-sizing: border-box;
+}
+
+.pure-tag {
+  display: inline-block;
+  font-size: 80%;
+  padding: 0 0.5em;
+  border-radius: 4px;
+  border: 0.15em solid;
+  box-sizing: border-box;
+}

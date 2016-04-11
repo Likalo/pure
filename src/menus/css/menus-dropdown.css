@@ -20,6 +20,7 @@
 }
 
 .pure-menu-allow-hover:hover > .pure-menu-children,
+.pure-menu-item.active > .pure-menu-children,
 .pure-menu-active > .pure-menu-children {
     display: block;
     position: absolute;
