@@ -15,31 +15,7 @@ A set of small, responsive CSS modules that you can use in every web project.
 
 [![Build Status](http://img.shields.io/travis/yahoo/pure.svg?style=flat)][Build Status]
 
-**Use From the CDN:**
-
-```html
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-```
-
-Note: You can [customize which Pure modules you need][customize].
-
-**Install with Bower:**
-
-```shell
-$ bower install --save pure
-```
-
-**Install with NPM:**
-
-```shell
-$ npm install purecss
-```
-
 [Pure]: http://purecss.io/
-[Bower]: http://bower.io/
-[Build Status]: https://travis-ci.org/yahoo/pure
-[customize]: http://purecss.io/customize/
-
 
 Features
 --------
@@ -70,32 +46,6 @@ of all the CSS work that every site needs, without making it look cookie-cutter:
 
 [Normalize.css]: http://necolas.github.io/normalize.css/
 
-
-Get Started
------------
-
-To get started using Pure, go to the [Pure CSS website][Pure]. The website has
-extensive documentation and examples to help you start using Pure.
-
-You can include the Pure CSS file in your project by fetching it from Yahoo's
-CDN:
-
-```html
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
-```
-
-You can also install Pure using [Bower][], using the following command:
-
-```shell
-$ bower install --save pure
-```
-
-Or you can install Pure using NPM:
-
-```shell
-$ npm install purecss
-```
-
 Build From Source
 -----------------
 
@@ -103,7 +53,7 @@ Optionally, you can build Pure from its source on Github. To do this, you'll
 need to have Node.js and npm installed. We use [Grunt][] to build Pure.
 
 ```shell
-$ git clone git@github.com:yahoo/pure.git
+$ git clone git@github.com:likalo/pure.git
 $ cd pure
 $ npm install
 $ grunt
@@ -145,6 +95,11 @@ conventions of the files in the `build/` directory follow these rules:
 * `grids-responsive-min.css`: Minified version of `grids-responsive.css` that
   should be used in production.
 
+* `pure-theme.css`: A Rollup of all skin modules. This includes
+  colors and sizing for the framework.
+
+* `pure-theme-min.css`: Minified version of `pure-theme.css` that should be used in
+  production.
 
 [Grunt]: http://gruntjs.com/
 
@@ -158,26 +113,6 @@ Pure is tested and works in:
 * Latest Stable: Firefox, Chrome, Safari
 * iOS 6-8
 * Android 4.x
-
-
-Docs and Website
-----------------
-
-[Pure's website][Pure] is also open source, so please open any issues or pull
-requests for the docs and website over at the [`pure-site`][pure-site]
-repository.
-
-
-[pure-site]: https://github.com/yahoo/pure-site
-
-
-Contributing
-------------
-
-See the [CONTRIBUTING file][] for information on how to contribute to Pure.
-
-
-[CONTRIBUTING file]: https://github.com/yahoo/pure/blob/master/CONTRIBUTING.md
 
 
 License
