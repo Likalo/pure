@@ -23,7 +23,8 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-css-selectors": "^1.1.0",
     "grunt-pure-grids": "^1.0.0",
-    "grunt-stripmq": "0.0.6"
+    "grunt-stripmq": "0.0.6",
+    "grunt-text-replace": "^0.4.0"
   },
   "description": "Pure is a ridiculously tiny CSS library you can use to start any web project.",
   "bugs": {
