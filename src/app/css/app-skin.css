@@ -7,20 +7,26 @@
   border-color: #BorderColor;
 }
 
-.app-toolbar > .pure-menu {
-  background-color: #AccentColor;
-  border-color: #AccentColor;
-}
-.app-toolbar,
-.app-toolbar .pure-menu-link,
-.app-toolbar .pure-menu-control,
-.app-toolbar .pure-menu-heading {
-  color: #AccentText;
-  fill: #AccentText;
-}
 .app-toolbar .pure-menu-active > .pure-menu-link,
 .app-toolbar .pure-menu-link:hover,
 .app-toolbar .pure-menu-link:focus {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.app-toolbar-primary > .pure-menu {
+  background-color: #AccentColor;
+  border-color: #AccentColor;
+}
+.app-toolbar-primary,
+.app-toolbar-primary .pure-menu-link,
+.app-toolbar-primary .pure-menu-control,
+.app-toolbar-primary .pure-menu-heading {
+  color: #AccentText;
+  fill: #AccentText;
+}
+.app-toolbar-primary .pure-menu-active > .pure-menu-link,
+.app-toolbar-primary .pure-menu-link:hover,
+.app-toolbar-primary .pure-menu-link:focus {
     background-color: rgba(255,255,255,0.2);
 }
 
