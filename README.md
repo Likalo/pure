@@ -6,14 +6,11 @@ If you are looking for the original Pure.css, please use the information and lin
 
 Pure
 ====
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/yahoo/pure?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![Pure](https://cloud.githubusercontent.com/assets/449779/5291099/1b554cca-7b03-11e4-9157-53a12d91b34a.png)][Pure]
 
 A set of small, responsive CSS modules that you can use in every web project.
 [http://purecss.io/][Pure]
-
-[![Build Status](http://img.shields.io/travis/yahoo/pure.svg?style=flat)][Build Status]
 
 [Pure]: http://purecss.io/
 
