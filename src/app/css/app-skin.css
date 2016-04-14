@@ -1,16 +1,18 @@
 .app,
 .app-view,
-.app-sidebar {
+.app-sidebar,
+.app-toolbar {
   background-color: #BackgroundColor;
 }
-.app-sidebar {
+.app-sidebar,
+.app-toolbar {
   border-color: #BorderColor;
 }
 
 .app-toolbar .pure-menu-active > .pure-menu-link,
 .app-toolbar .pure-menu-link:hover,
 .app-toolbar .pure-menu-link:focus {
-    background-color: rgba(0,0,0,0.2);
+    background-color: #BackgroundHover;
 }
 
 .app-toolbar-primary > .pure-menu {
