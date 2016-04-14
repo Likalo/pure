@@ -122,8 +122,10 @@ position: static;
 @media (min-width: 58em) {
   .app {
       box-sizing: border-box;
-      padding-left: 12em;
       left: 0;
+  }
+  .app.app--with-sidebar {
+    padding-left: 12em;
   }
   .app-sidebar {
     left: 12em;
