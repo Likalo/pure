@@ -1,11 +1,11 @@
 .app,
 .app-view,
 .app-sidebar,
-.app-toolbar {
+.app-toolbar > .pure-menu {
   background-color: #BackgroundColor;
 }
 .app-sidebar,
-.app-toolbar {
+.app-toolbar > .pure-menu {
   border-color: #BorderColor;
 }
 
