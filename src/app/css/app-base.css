@@ -68,6 +68,8 @@ position: static;
     right: 0;
     height: 3em;
     z-index: 999;
+}
+.app-toolbar > .pure-menu {
     border-bottom: 1px solid;
     box-sizing: border-box;
 }
