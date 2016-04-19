@@ -119,7 +119,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 }
 .pure-form select {
     /* Normalizes the height; padding is not sufficient. */
-    height: 2.25em;
+    /*height: 2.25em;*/
     border: 0.1em solid
 }
 .pure-form select[multiple] {
