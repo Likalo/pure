@@ -12,7 +12,10 @@
 .app-toolbar .pure-menu-active > .pure-menu-link,
 .app-toolbar .pure-menu-link:hover,
 .app-toolbar .pure-menu-link:focus {
-    background-color: #BackgroundHover;
+    background-color: #BackgroundHover!important;
+}
+.app-toolbar input {
+  border-color: #BorderColor;
 }
 
 .app-toolbar-primary > .pure-menu {
@@ -29,7 +32,10 @@
 .app-toolbar-primary .pure-menu-active > .pure-menu-link,
 .app-toolbar-primary .pure-menu-link:hover,
 .app-toolbar-primary .pure-menu-link:focus {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.2)!important;
+}
+.app-toolbar-primary input {
+  border-color: rgba(255,255,255,0.2);
 }
 
 .layout--menu-header {
