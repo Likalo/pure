@@ -116,6 +116,11 @@ position: static;
     line-height: 1em;
     text-transform: initial;
 }
+.app-toolbar input {
+  background: inherit;
+  border: none;
+  border-bottom: 1px solid;
+}
 
 .app-view {
   position: relative;
