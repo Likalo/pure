@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
 
-    var theme = grunt.file.readJSON('theme.json');
+    var theme = grunt.file.readJSON(grunt.option('theme') || 'theme.json');
     // -- Config -------------------------------------------------------------------
 
     grunt.initConfig({
