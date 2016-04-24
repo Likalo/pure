@@ -83,7 +83,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .pure-form input[type="radio"]:focus,
 .pure-form input[type="checkbox"]:focus {
     outline: thin solid;
-    outline: 0.1em auto;
+    outline: 0.15em auto;
 }
 .pure-form .pure-checkbox,
 .pure-form .pure-radio {
@@ -120,7 +120,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 .pure-form select {
     /* Normalizes the height; padding is not sufficient. */
     /*height: 2.25em;*/
-    border: 0.1em solid
+    border: 0.15em solid
 }
 .pure-form select[multiple] {
     height: auto;
