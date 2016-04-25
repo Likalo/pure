@@ -73,7 +73,7 @@
     padding-top: 0.6em;
     padding-bottom: 0.6em;
 }
-.layout--menu-list .pure-menu-heading {
+.layout--menu-list .pure-menu-heading:not(.layout--menu-header) {
     padding-top: 1.5em;
 }
 .layout--menu-list .pure-menu-description {
