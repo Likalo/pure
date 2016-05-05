@@ -15,6 +15,18 @@
         "from": "#AccentText",
         "to": "#fff"
     }, {
+        "from": "#AttentionColor",
+        "to": "#1889d9"
+    }, {
+        "from": "#AttentionText",
+        "to": "#fff"
+    }, {
+        "from": "#ButtonColor",
+        "to": "#e5e5e5"
+    }, {
+        "from": "#ButtonText",
+        "to": "#565d64"
+    }, {
         "from": "#BackgroundDisabled",
         "to": "#eaeded"
     }, {
