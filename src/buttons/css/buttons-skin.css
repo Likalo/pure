@@ -1,10 +1,10 @@
 /*csslint outline-none:false*/
 
 .pure-button {
-    /*color: #444;*/ /* rgba not supported (IE 8) */
-    /*color: rgba(0, 0, 0, 0.80); *//* rgba supported */
+    fill: #ButtonText;
+    color: #ButtonText;
     border-color: none rgba(0, 0, 0, 0);  /*IE9 + everything else*/
-    background-color: #BackgroundColor;
+    background-color: #ButtonColor;
     border-radius: 2px;
 }
 
@@ -32,6 +32,12 @@ a.pure-button-selected,
     background-color: #AccentColor;
     color: #AccentText;
     fill: #AccentText;
+}
+.pure-button-attention,
+a.pure-button-attention {
+    background-color: #AttentionColor;
+    color: #AttentionText;
+    fill: #AttentionText;
 }
 .pure-button-link,
 a.pure-button-link {
