@@ -201,6 +201,10 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     margin: 1.5em 0 0 11em;
 }
 
+.pure-form-aligned .pure-form-message {
+    margin: 0.4em 0 0 13em;
+}
+
 /* Rounded Inputs */
 .pure-form input.pure-input-rounded,
 .pure-form .pure-input-rounded {
@@ -276,5 +280,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 /* Block help for forms */
 .pure-form-message {
     display: block;
+    margin: 1.5em 0;
     font-size: 0.875em;
 }

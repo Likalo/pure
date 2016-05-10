@@ -132,3 +132,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     color: #TextShade;
     fill: #TextShade;
 }
+.pure-form-message.pure-form-message-invalid {
+    color: #InvalidColor;
+    fill: #InvalidColor;
+}
