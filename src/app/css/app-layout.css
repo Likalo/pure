@@ -42,8 +42,13 @@ html.layout--app body {
 .layout--box {
     padding: 1em;
 }
-.layout--box.x2 {
-    padding: 2em;
+.layout--box-h {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.layout--box-v {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .layout--center-in {
     margin-left: auto;
@@ -122,14 +127,19 @@ html.layout--app body {
     align-items: flex-start;
 }
 .layout--flex-row .layout--flex-cell {
-    min-width: 2em;
+    flex-basis: 2em;
 }
 .layout--flex-column .layout--flex-cell {
     width: 100%;
     line-height: 2.1em;
 }
+.layout--flex-cell {
+  flex-grow: 0;
+  flex-shrink: 1;  
+}
 .layout--flex-cell.fill {
-    flex: 1 1 auto;
+  flex-grow: 1;
+  flex-shrink: 0;  
 }
 
 @media (min-width: 58em) {
