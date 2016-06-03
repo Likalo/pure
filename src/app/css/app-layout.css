@@ -114,6 +114,9 @@ html.layout--app body {
     box-sizing: border-box;
     align-items: center;
 }
+.layout--flex-row {
+    flex-direction: row;
+}
 .layout--flex-column {
     flex-direction: column;
     align-items: flex-start;
