@@ -58,6 +58,11 @@ html.layout--app body {
     white-space: nowrap;
     overflow: hidden;
 }
+.layout--ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .layout--section-header {
   margin-bottom: 1em;
 }
