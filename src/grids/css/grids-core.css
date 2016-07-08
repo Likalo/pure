@@ -43,4 +43,5 @@
     word-spacing: normal;
     vertical-align: top;
     text-rendering: auto;
+    box-sizing: border-box;
 }

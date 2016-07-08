@@ -131,18 +131,22 @@ html.layout--app body {
     flex-direction: column;
     align-items: flex-start;
 }
-.layout--flex-row .layout--flex-cell {
+.layout--flex-row .layout--flex-cell,
+.layout--flex-row .layout--flex-shrink,
+.layout--flex-row .layout--flex-grow {
     flex-basis: 2em;
 }
-.layout--flex-column .layout--flex-cell {
+.layout--flex-column .layout--flex-cell,
+.layout--flex-column .layout--flex-shrink,
+.layout--flex-column .layout--flex-grow {
     width: 100%;
     line-height: 2.1em;
 }
-.layout--flex-cell {
+.layout--flex-shrink {
   flex-grow: 0;
   flex-shrink: 1;  
 }
-.layout--flex-cell.fill {
+.layout--flex-grow {
   flex-grow: 1;
   flex-shrink: 0;  
 }
