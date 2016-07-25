@@ -134,7 +134,7 @@ html.layout--app body {
 .layout--flex-row .layout--flex-cell,
 .layout--flex-row .layout--flex-shrink,
 .layout--flex-row .layout--flex-grow {
-    flex-basis: 2em;
+    min-width: 2em;
 }
 .layout--flex-column .layout--flex-cell,
 .layout--flex-column .layout--flex-shrink,
