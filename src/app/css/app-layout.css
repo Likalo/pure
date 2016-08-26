@@ -3,6 +3,14 @@ html.layout--app body {
     height: 100%;
     overflow: hidden;
 }
+.layout--scroll-none {
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
 .layout--scroll-horizontaly {
   left: 0;
   right: 0;
@@ -38,6 +46,11 @@ html.layout--app body {
 
 .layout--icon {
     margin: 0 0.5em;
+}
+.layout--box,
+.layout--box-h,
+.layout--box-v {
+  box-sizing: border-box;  
 }
 .layout--box {
     padding: 1em;
@@ -142,13 +155,17 @@ html.layout--app body {
     width: 100%;
     line-height: 2.1em;
 }
+.layout--flex-static {
+  flex-grow: 0;
+  flex-shrink: 0;  
+}
 .layout--flex-shrink {
   flex-grow: 0;
   flex-shrink: 1;  
 }
 .layout--flex-grow {
   flex-grow: 1;
-  flex-shrink: 0;  
+  flex-shrink: 1;  
 }
 
 @media (min-width: 58em) {
