@@ -19,8 +19,7 @@
 }
 
 .pure-menu-link,
-.pure-menu-link>*,
-.pure-menu-control {
+.pure-menu-link>* {
     cursor: pointer!important;
 }
 

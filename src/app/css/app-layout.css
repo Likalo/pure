@@ -28,7 +28,7 @@ html.layout--app body {
   -webkit-overflow-scrolling: touch;
 }
 .layout--hidden,
-.layout--hidde-inactive:not(.active) {
+.layout--hide-inactive:not(.active) {
     display: none;
 }
 .layout--concealed,
